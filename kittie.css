@@ -1,0 +1,8 @@
+/* Gallery - Fallback
+---------------------------*/
+/* hero */
+body .gallery-hero .image,
+body .gallery-hero.alt .image { background-image:url(mountainkitty.png); }
+body .gallery-hero .title,
+body .gallery-hero.alt .title { width:395px; height:217px; top:100px; right:450px; background:url(title.png) no-repeat; }
+
