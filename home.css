@@ -33,42 +33,13 @@ body#overview #display img.left { margin-top:-260px; margin-bottom:-100px; margi
 
 /* wireless */
 body#overview #wireless .bucket-copy { padding:80px 494px 0 14px; }
-body#overview #wireless img.right { margin-top:-230px; position:relative; z-index:1; }
+body#overview #wireless img.right { margin-top:-230px; margin-right:-70px; position:relative; z-index:1; }
 
 /* a6 */
 body#overview #a6 .bucket-copy { padding:80px 16px 0 510px; }
-body#overview #a6 img.left { margin-top:-245px; margin-bottom:10px; margin-left:-10px; position:relative; z-index:1; }
+body#overview #a6 img.left { margin-top:-245px; margin-bottom:0px; margin-left:0px; position:relative; z-index:1; }
 
 
-
-/* Video Thumbs
----------------------------*/
-body#overview .videos { text-align:center; padding-top:20px; padding-bottom:5px; }
-body#overview .videos li { display:inline-block; -moz-display:inline-stack; *display:inline; *zoom:1; margin:0 3px; }
-body#overview .videos .video-thumb i::after { -webkit-box-shadow:none; -moz-box-shadow:none; box-shadow:none; }
-body#overview .videos .video-thumb .link { font-style:normal; color:#fff; text-shadow:0 1px 4px rgba(0,0,0,.8); -moz-text-shadow:1px 1px 5px rgba(0,0,0,.5); }
-body#overview .videos .video-thumb .link.darklink { *color:#333; }
-body#overview .videos .video-thumb:hover .link { text-decoration:none; }
-body#overview .videos .video-thumb .link { position:absolute; left:0; bottom:6px; _left:-370px; }
-body#overview .videos .video-thumb i .play { top:52%; }
-
-
-
-/* Video Gallery
----------------------------*/
-/* video gallery */
-body#overview #gallery-hero-videos { position:relative; z-index:1; }
-body#overview #gallery-hero-videos .gallery-video { position:absolute; z-index:1; width:848px; height:480px; padding:50px 40px 0; margin-top:-290px; margin-left:-464px; top:50%; left:50%; }
-body#overview #gallery-hero-videos .moviePanel { width:848px; height:480px; border:1px solid #dcdcdc; }
-body#overview #gallery-hero-videos .gallery-hero-videos-default { width:0; height:0; }
-
-/* video close button */
-body#overview #gallery-hero-videos .close { position:absolute; top:6px; left:40px; width:29px; height:29px; text-indent:-9999px; overflow:hidden; background:url(http://images.apple.com/v/iphone/home/d/images/button_close.png) no-repeat 0 0; z-index:20051; _behavior:url(/global/scripts/lib/iepngfix.htc); }
-
-@media screen and (max-height: 720px) {
-	body#overview #gallery-hero-videos .gallery-video { padding-top:0; margin-top:-240px; }
-	body#overview #gallery-hero-videos .close { top:0px; left:0px; }
-}
 
 
 /* Hero Gallery
