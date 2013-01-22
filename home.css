@@ -33,7 +33,7 @@ body#overview #display img.left { margin-top:-260px; margin-bottom:-100px; margi
 
 /* wireless */
 body#overview #wireless .bucket-copy { padding:80px 494px 0 14px; }
-body#overview #wireless img.right { margin-top:-230px; margin-right:-70px; position:relative; z-index:1; }
+body#overview #wireless img.right { margin-top:-240px; margin-right:-70px; position:relative; z-index:1; }
 
 /* a6 */
 body#overview #a6 .bucket-copy { padding:80px 16px 0 510px; }
